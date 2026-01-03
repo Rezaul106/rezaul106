@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rezaul — Portfolio</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; padding: 2rem; background:#f7fafc; color:#111827; }
+    .container { max-width: 900px; margin: 0 auto; }
+    header { display:flex; align-items:center; gap:1rem; }
+    img.avatar { width:96px; height:96px; border-radius:12px; object-fit:cover; }
+    h1 { margin:0; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; margin-top:1.25rem; }
+    .card { background:white; padding:1rem; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+    footer { margin-top:2rem; font-size:0.9rem; color:#6b7280; }
+    a { color:#0366d6; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="avatar" src="https://avatars.githubusercontent.com/Rezaul106" alt="Rezaul avatar"/>
+      <div>
+        <h1>Hi — I'm Rezaul</h1>
+        <p>Software developer • Open-source enthusiast • Building web apps</p>
+        <p><a href="https://github.com/Rezaul106">GitHub</a> · <a href="mailto:hello@example.com">Email</a></p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="card">
+          <h3><a href="https://github.com/Rezaul106/project-1">project-1</a></h3>
+          <p>Short summary of the project and tech used.</p>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/Rezaul106/project-2">project-2</a></h3>
+          <p>Short summary of the project and tech used.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>About me</h2>
+      <p>One-paragraph bio, technologies, and what you're looking for (collabs, jobs, freelance).</p>
+    </section>
+
+    <footer>
+      <p>© Rezaul — Built with GitHub Pages</p>
+    </footer>
+  </div>
+</body>
+</html>
